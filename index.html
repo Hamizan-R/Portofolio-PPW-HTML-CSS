@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- judul di tab browser -->
+    <title>Portofolio - Raihan Parsa Ahza Hamizan</title>
+    
+    <!-- ini menghubungkan file HTML ini dengan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- ngambil font poppins dari google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Portofolio</div>
+        <nav>
+            <!-- ini tautan navigasi internal untuk mengarah ke ID elemen masing-masing -->
+            <a href="#about">Tentang</a>
+            <a href="#skills">Hobi & Keahlian</a>
+            <a href="#education">Pendidikan</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <!--  ini buat foto -->
+        <div class="hero-avatar">
+            <img src="Foto-Portofolio.jpeg" alt="Foto Raihan Parsa Ahza Hamizan">
+        </div>
+        
+        <div class="hero-text">
+            <h1>Raihan Parsa Ahza Hamizan</h1>
+            <p class="tagline">Mahasiswa Teknik Informatika | UMRAH</p>
+            <p class="bio">
+                Lahir di Tanjungpinang pada 04 Mei 2007, anak kedua dari tiga bersaudara. 
+                Saat ini sedang menempuh pendidikan Strata 1 Program Studi Teknik Informatika di Universitas Maritim Raja Ali Haji.
+            </p>
+        </div>
+    </section>
+
+    <!-- ini bagian hobi sama keahlian  -->
+    <section id="skills" class="container">
+        <h2>Hobi & Keahlian</h2>
+        <!-- ini CSS Grid -->
+        <div class="cards-grid">
+            <div class="card">
+                <h3>🎮 Hobi</h3>
+                <p><strong>Hobi:</strong> Bermain Game & Badminton</p>
+                <p style="margin-top: 10px;">Cepat beradaptasi dan mempelajari hal baru pada permainan maupun materi pelajaran yang diminati.</p>
+            </div>
+            <div class="card">
+
+    <h3>⚡ Keahlian</h3>
+    <!-- biar kayak dibungkus di dalam tag-->
+        <div class="tech-tags">
+            <span class="tag">HTML & CSS</span>
+            <span class="tag">C++</span>
+            <span class="tag">Problem Solving</span>
+        </div>
+    </div>
+    </section>
+
+    <!-- ini buat section riwayat pendidikan -->
+    <section id="education" class="container">
+        <h2>Riwayat Pendidikan</h2>
+        <!-- menggunakan elemen bertingkat untuk membentuk alur waktu timeline -->
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="year">2025 - Sekarang</span>
+                <h4>Strata 1 - Teknik Informatika</h4>
+                <p>Universitas Maritim Raja Ali Haji</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">2022 - 2025</span>
+                <h4>SMA</h4>
+                <p>SMA 2 Tanjungpinang</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">2019 - 2022</span>
+                <h4>SMP</h4>
+                <p>SMP 4 Tanjungpinang</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">2013 - 2019</span>
+                <h4>SD</h4>
+                <p>SD 002 Bukit Bestari Tanjungpinang</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ini buat section kontak -->
+    <section id="contact" class="container">
+        <h2>Hubungi Saya</h2>
+        <div class="contact-box">
+            <p>📧 <strong>Email:</strong> <a href="mailto:raihan.parsa@gmail.com">raihan.parsa@gmail.com</a></p>
+            <p>📷 <strong>Instagram:</strong> <a href="https://instagram.com/raihanparsa" target="_blank">@raihanparsa</a></p>
+            <p>📱 <strong>Contact Person:</strong> 0812 7673 8799</p>
+        </div>
+    </section>
+
+    <!-- ini buat section footer -->
+    <footer>
+        <p>&copy; 2501020104 - Raihan Parsa Ahza Hamizan 2026.</p>
+    </footer>
+
+</body>
+</html>
